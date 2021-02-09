@@ -1,16 +1,16 @@
 plugins {
-    id 'java-library'
+    id "java-library"
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group "org.example"
+version "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation 'com.codeborne:selenide:5.18.0'
+    testImplementation "com.codeborne:selenide:5.18.0"
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.7.0"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.0"
 }
